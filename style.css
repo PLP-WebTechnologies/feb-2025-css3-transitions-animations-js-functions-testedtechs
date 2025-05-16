@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+button.animated {
+    animation: bounce 0.6s;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
